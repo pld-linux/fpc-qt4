@@ -9,12 +9,12 @@ Source0:	http://users.telenet.be/Jan.Van.hijfte/qtforfpc/qt4pas-V2.0RC_Qt4.5.3.t
 URL:		http://users.telenet.be/Jan.Van.hijfte/qtforfpc/fpcqt4.html
 BuildRequires:	QtCore-devel
 BuildRequires:	QtDBus-devel
+BuildRequires:	QtGui-devel
 BuildRequires:	QtNetwork-devel
+BuildRequires:	QtWebKit-devel
 BuildRequires:	QtXml-devel
 BuildRequires:	qt4-build >= 4.4.0
 BuildRequires:	qt4-qmake >= 4.4.0
-Source0:	http://users.telenet.be/Jan.Van.hijfte/qtforfpc/qt4pas-V%{version}RC_Qt4.5.3.tar.gz
-# Source0-md5:	32c98f9a164679c14d58f2f5a727a6c2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
