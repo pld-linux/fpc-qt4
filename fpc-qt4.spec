@@ -49,4 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README.TXT
-%attr(755,root,root) %{_libdir}/libQt4Pas.so*
+%attr(755,root,root) %{_libdir}/libQt4Pas.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/libQt4Pas.so.?
+# The .so link is used when linking during development
+%attr(755,root,root) %{_libdir}/libQt4Pas.so
