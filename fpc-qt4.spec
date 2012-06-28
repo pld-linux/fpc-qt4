@@ -1,11 +1,11 @@
 Summary:	Qt4 binding for FreePascal
 Name:		fpc-qt4
-Version:	2.0
+Version:	2.5
 Release:	1
 License:	LGPL
 Group:		Libraries
-Source0:	http://users.telenet.be/Jan.Van.hijfte/qtforfpc/qt4pas-V2.0RC_Qt4.5.3.tar.gz
-# Source0-md5:	32c98f9a164679c14d58f2f5a727a6c2
+Source0:	http://users.telenet.be/Jan.Van.hijfte/qtforfpc/V2.5/qt4pas-V2.5_Qt4.5.3.tar.gz
+# Source0-md5:	8249bc17e4167e077d22c7f5fb118bb2
 URL:		http://users.telenet.be/Jan.Van.hijfte/qtforfpc/fpcqt4.html
 BuildRequires:	QtCore-devel
 BuildRequires:	QtDBus-devel
@@ -27,7 +27,7 @@ extra class, just ask and it will be added promptly. Some of the
 methods that have parameters based upon templates have been omitted.
 
 %prep
-%setup -q -n qt4pas-V%{version}RC_Qt4.5.3
+%setup -q -n qt4pas-V%{version}_Qt4.5.3
 
 %build
 %{_bindir}/qmake-qt4
